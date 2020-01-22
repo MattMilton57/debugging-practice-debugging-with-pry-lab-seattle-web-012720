@@ -13,6 +13,7 @@ end
 
 def greet_crew (crew)
   greetedcrew = crew.each {|crew_member| "Hello #{crew_member}."} 
+  binding.pry
   p greetedcrew
   
 end
