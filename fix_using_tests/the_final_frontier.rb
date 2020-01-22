@@ -12,8 +12,7 @@ def crew
 end
 
 def greet_crew (crew)
-  greetedcrew = crew.map do {|crew_member| "Hello" + crew_member.} 
-end
+  greetedcrew = crew.map {|crew_member| "Hello" + crew_member.} 
   p greetedcrew
   
 end
