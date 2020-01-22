@@ -13,7 +13,6 @@ end
 
 def greet_crew (crew)
   greetedcrew = crew.map do {|crew_member| "Hello" + crew_member.} 
-  binding.pry
   p greetedcrew
   
 end
