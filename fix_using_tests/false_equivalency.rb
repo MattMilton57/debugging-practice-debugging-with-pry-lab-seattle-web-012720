@@ -1,7 +1,7 @@
 
 
 def get_user_input
-  2
+  gets.chomp
 end
 
 def prompt_user
@@ -13,7 +13,7 @@ end
 def selection(num)
   if num = 1
      "YUM YUM MUNCH MUNCH MUNCH"
-  elsif  num = 2
+  else  num = 2
      "HAM HAM HAM IN MY TUMMY"
   end
 end
