@@ -13,6 +13,7 @@ end
 
 def greet_crew (crew)
   greetedcrew = crew.map do {|crew_member| "Hello" + crew_member.} 
+end
   p greetedcrew
   
 end
